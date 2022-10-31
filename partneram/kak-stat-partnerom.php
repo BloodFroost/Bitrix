@@ -1,6 +1,8 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "мягкая мебель, офисная мебель, мебель для кухни, детская мебель");
-$APPLICATION->SetPageProperty("description", "Мебельная компания осуществляет производство мебели на высококлассном оборудовании с применением минимальной доли ручного труда, что позволяет обеспечить высокое качество нашей продукции.");
-$APPLICATION->SetTitle("Как стать партнером");
-?>Text here....<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Как стать партнёром");
+$APPLICATION->SetPageProperty("keywords", "заявка, партнерский договор");
+$APPLICATION->SetPageProperty("description", "Порядок подачи заявки на партнерство и бланк партнерского договора");
+$APPLICATION->SetTitle("Как стать партнёром");
+
+?>Text here....<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
